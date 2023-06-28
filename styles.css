@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{text-align: center;}
+.compras-container{
+    width: 100%;
+    height: 70%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(1,1fr);
+}
+
+/* PRODUCTOS */
+
+
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: grey;
+    overflow-y: scroll;
+}
+.producto{
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;	
+}
+.producto:hover{
+    background-color: rgb(182, 178, 178);
+}
+
+
+
+
+/* LISTA DE COMPRAS */
+
+
+
+
+.lista{
+    background-color: rgb(245, 192, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line{
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    height: 30px;
+}
+.line:last-child{
+    margin-bottom: 30px;
+}
+.line::after{
+    position: absolute;
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0%;
+
+    
+}

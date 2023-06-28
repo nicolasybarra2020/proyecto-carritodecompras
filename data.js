@@ -1,0 +1,48 @@
+import { UI } from "./models.js"
+export const productos=[
+    ["Manzanas", 299],
+    ["Leche", 199],
+    ["Pan", 249],
+    ["Huevos", 399],
+    ["Arroz", 149],
+    ["Pasta", 119],
+    ["Cerveza", 249],
+    ["Yogur", 159],
+    ["Queso", 349],
+    ["Tomates", 199],
+    ["Pollo", 499],
+    ["Café", 249],
+    ["Papel higiénico", 99],
+    ["Plátanos", 149],
+    ["Aceite de oliva", 449],
+    ["Galletas", 79],
+    ["Cereal", 229],
+    ["Sopa enlatada", 129],
+    ["Refresco", 199],
+    ["Chocolate", 199],
+    ["Cebollas", 79],
+    ["Agua embotellada", 99],
+    ["Zanahorias", 59],
+    ["Jamón", 599],
+    ["Mantequilla", 159],
+    ["Pepsi", 199],
+    ["Naranjas", 129],
+    ["Pescado", 799],
+    ["Azúcar", 89],
+    ["Sal", 69],
+    ["Mango", 179],
+    ["Cebollas", 79],
+    ["Papayas", 199],
+    ["Pimienta", 49],
+    ["Melocotones", 249],
+    ["Helado", 299],
+    ["Yerba mate", 199],
+    ["Pavo", 699],
+    ["Vinagre", 99],
+    ["Salsa de tomate", 149],
+    ["Mermelada", 129]
+]
+
+
+
+export const ui=new UI()
